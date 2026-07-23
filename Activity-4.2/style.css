@@ -1,19 +1,31 @@
 /* Light mode */
 .light-mode {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #f5f7ff;
+    color: #0a0a0a;
+    background-image: url('images/alonesunrise.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.light-mode p {
+    color: #ffffff;
+    text-shadow: 0 0 8px #ff00ff;
 }
 
 /* dark mode */
 .dark-mode {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #0a0a0f;
+    color: #e0e0ff;
+    background-image: url('images/nightforest.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* body styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
     transition: background-color 0.3s;
+                color 0.3s ease;
     text-align: center;
     padding: 40px;
 }
@@ -42,4 +54,24 @@ main {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 20px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* light mode button */
+.light-mode #toggleBtn {
+    background-color: #6c00ff;
+    color: #ffffff;
+    box-shadow: 0 0 10px #b07cff;
+}
+
+/* dark mode button */
+.dark-mode #toggleBtn {
+    background-color: #00eaff;
+    color: #000000;
+    box-shadow: 0 0 15px #00eaff;
+}
+
+/* glowing text for title */
+h1 {
+    text-shadow: 0 0 10px #ff00ff;
 }
