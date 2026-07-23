@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List Application</title>
+    
+    <!-- css for completed tasks styling -->
+     <style>
+        .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+     </style>
+</head>
+<body>
+    <h1>Task List</h1>
+
+    <!-- Input field for entering tasks -->
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+
+    <!-- Button to add tasks -->
+    <button id="addTaskBtn">Add Task</button>
+
+    <!-- Button to clear all tasks -->
+    <button id="clearAllBtn">Clear All Tasks</button>
+
+    <!-- Task list container -->
+    <ul id="taskList"></ul>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
