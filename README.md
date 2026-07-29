@@ -20,3 +20,7 @@ Activity-4.2-Light and dark mode page- had a lot of fun with this one, i made a 
 
 Activity 5.1-a short javascript exercise that calculates the mean value of a dataset. The script loops through an array of numbers, adds them together, divides by the total amount of values, rounds the result and outputs the final mean.
 What i did-stored numeric data in an array, created a function to process values, used a for loop to calculate a running total, returning results from a function and logging output to the console log.
+
+Activity 6.1 - Manipulating Arrays- This small project demonstrates the following concepts: How to create and initialize empty arrays JavaScript.
+How to use various array methods to manipulate arrays in JavaScript.
+How to display the values of arrays with HTML elements. 
