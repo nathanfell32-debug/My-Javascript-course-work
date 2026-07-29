@@ -24,3 +24,5 @@ What i did-stored numeric data in an array, created a function to process values
 Activity 6.1 - Manipulating Arrays- This small project demonstrates the following concepts: How to create and initialize empty arrays JavaScript.
 How to use various array methods to manipulate arrays in JavaScript.
 How to display the values of arrays with HTML elements. 
+
+Activity 7.1 - A simple calculator- demonstrating understanding of functions, switch statements, input validation, event handling- to use = enter two numbers and choose an operation, click calculate to display result.
