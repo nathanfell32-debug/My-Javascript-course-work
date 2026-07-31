@@ -28,3 +28,6 @@ How to display the values of arrays with HTML elements.
 Activity 7.1 - A simple calculator- demonstrating understanding of functions, switch statements, input validation, event handling- to use = enter two numbers and choose an operation, click calculate to display result.
 
 Activity 8.1 - Interactive image gallery - I created an interactive image gallery using HTML, CSS, and JavaScript, allowing users to add and remove images dynamically. It demonstrates practical application of JavaScript events, DOM manipulation, and basic styling techniques.
+
+Activity 9.1 - A to-do application - Created a basic to-do list application that allows users to add, remove, and display tasks.
+
